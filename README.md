@@ -147,7 +147,7 @@ The model was evaluated on a held-out validation set of **7,000 images** (20% sp
 
 ```markdown
 > **🔍 Detailed Analysis:**
-> For full visualization reports—including high-res **Confusion Matrices**, **Calibration Curves**, and **Classification Reports**—please consult the [`results/`](./results) directory.
+> For full visualization reports—including high-res **Confusion Matrices**, **Calibration Curves**, and **Classification Reports**—please consult the `results/` directory.
 ```
 
 ### **B. Diagnostic Plots**
@@ -206,6 +206,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 
 2. **Advanced Architectures:**
 * Experiment with **Swin Transformers** or **ConvNeXt**, which may capture global frequency dependencies better than standard CNNs.
+
 
 
 
