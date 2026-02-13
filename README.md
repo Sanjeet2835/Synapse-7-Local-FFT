@@ -2,7 +2,7 @@
 
 # 1. Project Abstract
 
-**Synapse-7** is a deep learning classifier designed to distinguish between **AI-generated synthetic imagery** and **real photographic data**. Unlike traditional CNNs that rely solely on spatial pixel patterns, this project implements a **Frequency Domain Analysis** pipeline to detect the spectral artifacts often left behind by generative models (GANs and Diffusion models).
+**Synapse-7** is a deep learning classifier designed to distinguish between **AI-generated synthetic imagery** and **real images**. Unlike traditional CNNs that rely solely on spatial pixel patterns, this project implements a **Frequency Domain Analysis** pipeline to detect the spectral artifacts often left behind by generative models (GANs and Diffusion models).
 
 By transforming input images into frequency maps using **Local Patch-wise Fast Fourier Transforms (FFT)**, the model exposes high-frequency irregularities invisible to the human eye. These spectral features are then processed by a custom-tuned **ResNet-34** backbone.
 
@@ -183,6 +183,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 
 2. **Advanced Architectures:**
 * Experiment with **Swin Transformers** or **ConvNeXt**, which may capture global frequency dependencies better than standard CNNs.
+
 
 
 
