@@ -1,5 +1,5 @@
-
-Generator: imagenet_glide
+Generator: GLIDE
+```
               precision    recall  f1-score   support
 
            0       0.99      0.94      0.97       500
@@ -8,9 +8,10 @@ Generator: imagenet_glide
     accuracy                           0.97      1000
    macro avg       0.97      0.97      0.97      1000
 weighted avg       0.97      0.97      0.97      1000
+```
 
-
-Generator: imagenet_ai_0508_adm
+Generator: ADM (Diffusion Model)
+```
               precision    recall  f1-score   support
 
            0       0.99      0.97      0.98       500
@@ -19,9 +20,10 @@ Generator: imagenet_ai_0508_adm
     accuracy                           0.98      1000
    macro avg       0.98      0.98      0.98      1000
 weighted avg       0.98      0.98      0.98      1000
+```
 
-
-Generator: imagenet_ai_0424_sdv5
+Generator: Stable Diffusion v5
+```
               precision    recall  f1-score   support
 
            0       0.99      0.96      0.97       500
@@ -30,9 +32,10 @@ Generator: imagenet_ai_0424_sdv5
     accuracy                           0.97      1000
    macro avg       0.98      0.97      0.97      1000
 weighted avg       0.98      0.97      0.97      1000
+```
 
-
-Generator: imagenet_midjourney
+Generator: Midjourney
+```
               precision    recall  f1-score   support
 
            0       0.92      0.97      0.95       500
@@ -41,9 +44,10 @@ Generator: imagenet_midjourney
     accuracy                           0.95      1000
    macro avg       0.95      0.95      0.95      1000
 weighted avg       0.95      0.95      0.95      1000
+```
 
-
-Generator: imagenet_ai_0424_wukong
+Generator: Wukong
+```
               precision    recall  f1-score   support
 
            0       0.96      0.97      0.97       500
@@ -52,9 +56,10 @@ Generator: imagenet_ai_0424_wukong
     accuracy                           0.97      1000
    macro avg       0.97      0.97      0.97      1000
 weighted avg       0.97      0.97      0.97      1000
+```
 
-
-Generator: imagenet_ai_0419_biggan
+Generator: BigGAN
+```
               precision    recall  f1-score   support
 
            0       1.00      0.97      0.98       500
@@ -63,9 +68,10 @@ Generator: imagenet_ai_0419_biggan
     accuracy                           0.98      1000
    macro avg       0.98      0.98      0.98      1000
 weighted avg       0.98      0.98      0.98      1000
+```
 
-
-Generator: imagenet_ai_0419_vqdm
+Generator: VQ-Diffusion (VQDM)
+```
               precision    recall  f1-score   support
 
            0       0.99      0.96      0.98       500
@@ -74,4 +80,4 @@ Generator: imagenet_ai_0419_vqdm
     accuracy                           0.98      1000
    macro avg       0.98      0.98      0.98      1000
 weighted avg       0.98      0.98      0.98      1000
-
+```
