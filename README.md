@@ -180,7 +180,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 
 
 
-### **B. Future Roadmap**
+### **B. Future Scope**
 
 1. **Scale-Up:**
 * Train on the full **GenImage** dataset using multi-GPU distributed training (DDP) to validate performance at scale.
@@ -188,6 +188,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 
 2. **Advanced Architectures:**
 * Experiment with **Swin Transformers** or **ConvNeXt**, which may capture global frequency dependencies better than standard CNNs.
+
 
 
 
