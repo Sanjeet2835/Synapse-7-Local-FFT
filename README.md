@@ -13,11 +13,6 @@ By transforming input images into frequency maps using **Local Patch-wise Fast F
 * **Architecture:** ResNet-34 backbone with frozen early layers to preserve low-level feature extraction, fine-tuned on spectral data.
 * **Tech Stack:** PyTorch Lightning, MLFlow (Experiment Tracking), and Custom FFT Preprocessing.
 
-Here is **Section 2: System Architecture**.
-
-This section is your "technical flex." It proves you didn't just blindly import a model but engineered a specific pipeline to solve the problem using Signal Processing concepts.
-
----
 
 # 2. System Architecture
 
@@ -160,7 +155,7 @@ To verify reliability beyond simple accuracy, two key visualizations are generat
 
 
 
-# 7. Limitations & Future Work
+# 6. Limitations & Future Work
 
 While Synapse-7 achieves high accuracy on the validation set, the current implementation operates under specific constraints. This section outlines the boundaries of the system and identifies key areas for scaling.
 
@@ -188,6 +183,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 
 2. **Advanced Architectures:**
 * Experiment with **Swin Transformers** or **ConvNeXt**, which may capture global frequency dependencies better than standard CNNs.
+
 
 
 
