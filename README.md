@@ -159,11 +159,7 @@ The model was evaluated on a held-out validation set of **7,000 images** (20% sp
 | **Precision** | **98.1%** | **Low False Positive Rate.** When the model says "AI", it is highly likely to be true. It rarely flags real art as fake. |
 | **Recall** | **96.5%** | **High Detection Rate.** The model catches the vast majority of AI-generated content, missing very few. |
 
-
-```markdown
-> 🔍 Detailed Analysis:
 > For all visualizations and reports, please consult the `results/` directory.
-```
 
 ### **B. Generator-Specific Robustness Analysis**
 
@@ -323,6 +319,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 
 2. **Advanced Architectures:**
 * Experiment with **Swin Transformers** or **ConvNeXt**, which may capture global frequency dependencies better than standard CNNs.
+
 
 
 
