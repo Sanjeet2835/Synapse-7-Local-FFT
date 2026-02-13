@@ -1,0 +1,23 @@
+# Core
+torch
+torchvision
+torchaudio
+
+# Lightning (new + backward compatibility)
+lightning>=2.0
+pytorch-lightning
+
+# Metrics
+torchmetrics
+
+# Data & utils
+numpy
+pillow
+
+# Visualization
+matplotlib
+seaborn
+
+# ML tools
+scikit-learn
+mlflow
